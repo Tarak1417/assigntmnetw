@@ -4,7 +4,7 @@ import Logo from './assets/logo.png';
 import PlayIcon from './assets/play.png';
 import VideoSrc from './assets/videoplayback.mp4';
 import DoctorCard from './DoctorCard';
-import Footer from './footer';
+import Footer from './Footer';
 
 
 const Home = () => {
