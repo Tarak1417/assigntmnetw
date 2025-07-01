@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Apis';
+  src: url('./assets/Apis/Apis/Apis-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+     font-family: "Apis";
+}
+
+.footer {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+
+}
+
+.footer-logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-links p {
+  color: #001965;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-links p:hover {
+  color: #444;
+}
+
+.footer-description,
+.footer-address {
+  color: #444;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+ 
+  .footer-logo{
+    align-items:left;
+    margin-right: 300px;
+
+  }
+
+  .footer-description,
+  .footer-address {
+    padding: 0 10px;
+  }
+}
